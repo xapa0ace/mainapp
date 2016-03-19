@@ -1,12 +1,26 @@
 {
   "name": "mainapp",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0001",
+  "description": "ElectronApp SmartPhone VR.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "0.10.x"
   },
-  "keywords": [],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xapa0ace/mainapp.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^2.1.4",
+    "socket.io": "^1.3.6"
+  }
 }
